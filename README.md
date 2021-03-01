@@ -1,2 +1,2 @@
 # Heart Failure Prediciton
- PDA and Claasifier for Heart Failure Dataset taken from Kaggle
+ EDA and Ensemble-based Claasifier for Heart Failure Detection.
