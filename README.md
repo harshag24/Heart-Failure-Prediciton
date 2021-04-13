@@ -10,8 +10,10 @@ In recent times, Computer-aided diagnosis using artificial intelligence-based so
 This paper proposes a Machine Learning based Ensemble Solution to predict the probability of having heart failure in the next ten years. We began by implementing various ML algorithms: Logistic Regression, Gaussian Naïve Bayes, KNN, Support Vector Machine, Decision Tree, Random Forest, Adaptive Boosting, Light Gradient Boosting Machine, XGBoost and CatBoost and then we created an ensemble model combining all these models which gave the best results and we achieved 87.5% recall and 96.4% precision on test data. Adding to this, we also performed extensive Exploratory Data Analysis and gained insights on the correlation of various factors with a heart attack.
 </br>
 </br>
+
 # DATASET
 </br></br>
+
 In this paper, we used the dataset provide on Kaggle based on ongoing Framingham Heart Study (FHS) [Dataset Link](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset). This study is being conducted on residents of Framingham, Massachusetts. The dataset provides the patients’ information. It includes 4,238 records (3594 records for healthy class and 644 records for people at risk from CHD). We split the data in the train and test part by applying stratified split of 25% for test data. Hence our training set consists of 3178 records and the testing set consists of 1060 records. The purpose of the classification is to assess if the patient has a 10-year chance of potential coronary heart disease (CHD).
 </br></br>
 
