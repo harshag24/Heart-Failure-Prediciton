@@ -45,7 +45,7 @@ An ensemble is a machine learning model that combines the predictions from two o
 | 9  | Support Vector Machine  | 85.90  | 86.23  |
 | 10  | XG Boost  | 86.10  | 86.53  |
 
-</br></br>
+</br>
 So, we designed an ensemble model using all the classifiers mentioned in the table above, taking Gaussian Naïve Bayes classifier as the meta classifier because the model devised resulted in the highest recall. A meta classifier is simply a classifier that makes the final prediction among all the predictions by using those predictions as features. So, it takes classes predicted by various classifiers and picks the final one as the result.
 </br></br>
 Table below shows the final performance of our ensemble model on the test data. It achieved a Recall score of 87.5% which is better than all the single classifiers.
