@@ -1,6 +1,5 @@
 # INTRODUCTION
 </br>
-</br>
 Cardiovascular disease is the term for all sorts of diseases that have an effect on the heart or blood vessels, as well as coronary heart condition (clogged arteries), which may cause heart attacks, stroke, noninheritable heart defects and peripheral artery unwellness. CVDs are the number 1 cause of death globally. An estimated 17.9 million people died from CVDs in 2016, representing 31% of all global deaths. Of these deaths, 85% are due to heart attack and stroke . Estimates from the World Health Organization (WHO) show that by 2030, CVDs will be the main cause of death throughout India, accounting for more than 35% of all deaths. Moreover, more than 800,000 people die of cardiovascular disease every year in the United States. Heart Attack is a complex clinical syndrome that occurs due to the heart’s inability to pump an adequate supply of blood to the body. All major body functions are disrupted without sufficient blood flow. One suffers a heart attack when the flow of oxygen rich blood is restricted to a certain section of heart which causes lack of enough oxygen. During a coronary failure, plaque will rupture and spill cholesterol and different substances into the blood. A grume forms at the positioning of the rupture. If the clot is giant, it will block blood flow through the arterial blood vessel, starving the heart of chemical element and nutrients (ischemia) that causes the heart muscles to die.
 </br>
 </br>
@@ -49,6 +48,7 @@ An ensemble is a machine learning model that combines the predictions from two o
 So, we designed an ensemble model using all the classifiers mentioned in the table above, taking Gaussian Naïve Bayes classifier as the meta classifier because the model devised resulted in the highest recall. A meta classifier is simply a classifier that makes the final prediction among all the predictions by using those predictions as features. So, it takes classes predicted by various classifiers and picks the final one as the result.
 </br></br>
 Table below shows the final performance of our ensemble model on the test data. It achieved a Recall score of 87.5% which is better than all the single classifiers.
+</br>
 
 | Performance Metrics  | Value(%) | 
 | ------------- | ------------- | 
